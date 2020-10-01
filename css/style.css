@@ -611,6 +611,12 @@ color: white;
 	color:#c59d58;
 	font-weight: bold;
 }
+.title-box h3{
+	font-size: 40px;
+	font-family: 'Engagement', cursive;
+	color:#c59d58;
+	font-weight: bold;
+}
 .title-box h2 span{
 	color: #881228;
 	text-decoration: underline;
@@ -773,12 +779,28 @@ color: white;
 /*------------------------------------------------------------------
     Family
 -------------------------------------------------------------------*/
+hr{
+	border: 0;
+	clear:both;
+	display:block;
+	width: 100%;               
+	background-color:#cda45e;
+	height: 1px;
+	}
 
 .family-box{
 	padding: 70px 0px;
 	background: url(../images/grey.jpg);
 }
-
+.custombox{
+	padding: 70px 0px;
+	background-color: #1a1814;
+}
+.vframe{
+	width: 100%;
+	height: 400px;
+	margin-top: 20px;
+}
 .single-team-member {
     position: relative;
     margin-top: 30px;
