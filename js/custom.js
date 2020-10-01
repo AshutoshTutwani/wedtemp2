@@ -136,6 +136,25 @@
 		$("#seconds").html(seconds + "<h6>Sec</h6>");
 	}
 	setInterval(function() { makeTimer(); }, 1000);
+	
+ // Testimonials carousel (uses the Owl Carousel library)
+ $(".testimonials-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    autoplayTimeout: 6000,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      900: {
+        items: 3
+      }
+    }
+  });
 
 
 	
