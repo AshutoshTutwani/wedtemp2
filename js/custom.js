@@ -85,9 +85,9 @@
 			},
 			image: {
 				tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-				titleSrc: function(item) {
-					return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-				}
+				// titleSrc: function(item) {
+				// 	return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+				// }
 			}
 		});
 	});
@@ -154,13 +154,8 @@
         items: 3
       }
     }
-  });
-
-
-	
+  });	
 }(jQuery));
-
-
 
 //Get the button
 var mybutton = document.getElementById("myBtn");
@@ -175,7 +170,6 @@ function scrollFunction() {
     mybutton.style.display = "none";
   }
 }
-
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
