@@ -113,7 +113,7 @@
     Countdown Clock
     ................................................. */
 	function makeTimer() {
-		var endTime = new Date("07 December 2020 00:00:00 GMT+05:30");			
+		var endTime = new Date("13 December 2020 00:00:00 GMT+05:30");			
 		endTime = (Date.parse(endTime) / 1000);
 
 		var now = new Date();
@@ -139,7 +139,7 @@
 	
  // Testimonials carousel (uses the Owl Carousel library)
  $(".testimonials-carousel").owlCarousel({
-    autoplay: false,
+    autoplay: true,
     dots: true,
     loop: true,
 	autoplayTimeout: 6000,	
