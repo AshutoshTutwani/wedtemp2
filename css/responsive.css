@@ -36,10 +36,6 @@
 		background: rgba(0,0,0,0.9);		
 	}
 }
-
-
-
-
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
 	.top-header .navbar .navbar-collapse ul li a{
@@ -87,10 +83,10 @@
 		padding: 5px 15px;
 	}
 	.lbox-details h1{
-		font-size: 24px;
+		font-size: 60px;
 	}
 	.lbox-details h2{
-		font-size: 18px;
+		font-size: 38px;
 	}
 	.lbox-details p strong{
 		font-size: 20px;
@@ -161,3 +157,20 @@
 		margin-bottom: 30px;
 	}
 }
+
+@media (max-width: 530px){
+	.lbox-details h1{
+		font-size: 48px;
+	}
+	.lbox-details h2{
+		font-size: 31px;
+	}
+}
+	@media (max-width: 410px){
+		.lbox-details h1{
+			font-size: 42px;
+		}
+		.lbox-details h2{
+			font-size: 26px;
+		}
+		}
