@@ -1121,10 +1121,10 @@ select.form-control:not([size]):not([multiple]){
 }
 
 .footer-box .footer-company-name a{
-	color: #881228;
+	color: #c59d58;
 }
 .footer-box .footer-company-name a:hover{
-	color: #c59d58;
+	color: #ffffffb0;
 }
 #geoLocation
 {
